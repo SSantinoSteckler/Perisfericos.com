@@ -12,10 +12,9 @@ function mostrarProductos() {
       const $divCarro = document.createElement('div');
 
       $divCarro.classList.add('main-panel-venta__section-panel__div-carro');
-
       $divCarro.innerHTML = `
             <div>
-              <img src="./${producto.img}" alt="${producto.titulo}" />
+              <img src="../${producto.img}" alt="${producto.titulo}" />
             </div>
             <div>
               <span>Nombre</span>
