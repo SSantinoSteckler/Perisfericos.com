@@ -1,0 +1,137 @@
+[
+  {
+    "titulo": "HP Pavilion 15 - Intel Core i5, 8GB RAM, SSD 256GB, pantalla Full HD",
+    "id": "Computadora01",
+    "img": "../img/pc/imagesPc1.jpg",
+    "caracteristicas": {
+      "id": "Computadora"
+    },
+    "precio": 540000
+  },
+  {
+    "titulo": "Lenovo IdeaPad Flex 5 - AMD Ryzen 7, 16GB RAM, SSD de 512GB",
+    "id": "Computadora02",
+    "img": "../img/pc/imagesPc2.jpg",
+    "caracteristicas": {
+      "id": "Computadora"
+    },
+    "precio": 650000
+  },
+  {
+    "titulo": "ASUS VivoBook 15 - AMD Ryzen 3, 8GB RAM, SSD 256GB, pantalla Full HD",
+    "id": "Computadora03",
+    "img": "../img/pc/imagesPc3.jpg",
+    "caracteristicas": {
+      "id": "Computadora"
+    },
+    "precio": 250000
+  },
+  {
+    "titulo": "Asus VivoBook 15 - AMD Ryzen 5, 12GB RAM, SSD de 256GB",
+    "id": "Computadora04",
+    "img": "../img/pc/imagesPc4.jpg",
+    "caracteristicas": {
+      "id": "Computadora"
+    },
+    "precio": 400000
+  },
+  {
+    "titulo": "Lenovo IdeaPad 3 - Intel Pentium Gold, 4GB RAM, HDD 1TB, pantalla HD",
+    "id": "Computadora05",
+    "img": "../img/pc/imagesPc5.jpg",
+    "caracteristicas": {
+      "id": "Computadora"
+    },
+    "precio": 200000
+  },
+  {
+    "titulo": "Razer Cynosa Chroma - Teclado de membrana , retroiluminación  ",
+    "id": "Teclado01",
+    "img": "../img/teclados/imagesTeclado1.jpg",
+    "caracteristicas": {
+      "id": "Teclado"
+    },
+    "precio": 14000
+  },
+  {
+    "titulo": "SteelSeries Apex 7 TKL -  con teclas QX2 y retroiluminación RGB",
+    "id": "Teclado02",
+    "img": "../img/teclados/imagesTeclado2.jpg",
+    "caracteristicas": {
+      "id": "Teclado"
+    },
+    "precio": 35000
+  },
+  {
+    "titulo": "HyperX Alloy Origins Core -  con switches HyperX Red y retroiluminación ",
+    "id": "Teclado03",
+    "img": "../img/teclados/imagesTeclado3.jpg",
+    "caracteristicas": {
+      "id": "Teclado"
+    },
+    "precio": 19000
+  },
+  {
+    "titulo": "Corsair K70 RGB MK.2 -  con switches Cherry MX y membrana",
+    "id": "Teclado04",
+    "img": "../img/teclados/imagesTeclado4.jpg",
+    "caracteristicas": {
+      "id": "Teclado"
+    },
+    "precio": 27000
+  },
+  {
+    "titulo": "Logitech G413 Carbon - Teclado mecánico para juegos ",
+    "id": "Teclado05",
+    "img": "../img/teclados/imagesTeclado5.jpg",
+    "caracteristicas": {
+      "id": "Teclado"
+    },
+    "precio": 30000
+  },
+  {
+    "titulo": "Razer DeathAdder Elite - Mouse para juegos con sensor óptico de 16,000 DPI",
+    "id": "Mouse01",
+    "img": "../img/mouse/imagesMouse1.jpg",
+    "caracteristicas": {
+      "id": "Mouse"
+    },
+    "precio": 11200
+  },
+  {
+    "titulo": "Logitech G502 Hero - Mouse para juegos con sensor HERO 16K ",
+    "id": "Mouse02",
+    "img": "../img/mouse/imagesMouse2.jpg",
+    "caracteristicas": {
+      "id": "Mouse"
+    },
+    "precio": 8150
+  },
+  {
+    "titulo": "Corsair Ironclaw RGB - Mouse para juegos con sensor óptico de 18,000 DPI",
+    "id": "Mouse03",
+    "img": "../img/mouse/imagesMouse3.jpg",
+    "caracteristicas": {
+      "id": "Mouse"
+    },
+    "precio": 9000
+  },
+  {
+    "titulo": "SteelSeries Rival 3 - Mouse para juegos ultraligero con sensor TrueMove Core",
+    "id": "Mouse04",
+    "img": "../img/mouse/imagesMouse4.jpg",
+    "caracteristicas": {
+      "id": "Mouse"
+    },
+    "precio": 13000
+  },
+  {
+    "titulo": "HyperX Pulsefire Core - Mouse para juegos con sensor óptico Pixart 3327",
+    "id": "Mouse05",
+    "img": "../img/mouse/imagesMouse5.jpg",
+    "caracteristicas": {
+      "id": "Mouse"
+    },
+    "precio": 22000
+  }
+]

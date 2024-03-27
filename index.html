@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perisfericos.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hamburger-menu">
+        <button id="button-menu-hamburgesa">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+      <div class="div-menu" id="div-menu">
+        <button id="cerrar-menu" class="div-menu__button-close">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <div class="main-index__aside-index__div-logo">
+          <h1>
+            <i class="bi bi-columns-gap"></i>
+            Perisfericos.com
+          </h1>
+        </div>
+        <div class="div-menu__responsive-nav">
+          <ul>
+            <li>
+              <a href=""> <i class="bi bi-house-door-fill"></i>Inicio </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-index__aside-index__div-categorias">
+          <details>
+            <summary>Productos</summary>
+            <button id="Todos" class="button-producto">Todos productos</button>
+            <button id="Teclado" class="button-producto">Teclados</button>
+            <button id="Mouse" class="button-producto">Mouse</button>
+            <button id="Computadora" class="button-producto">
+              Computadoras
+            </button>
+          </details>
+          <a href="./html/panelVenta.html">
+            <i class="bi bi-cart-fill"></i>
+            Carro <span id="span-contador">(0)</span>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h2>
+          <i class="bi bi-columns-gap"></i>
+          Perisfericos.com
+        </h2>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href=""> <i class="bi bi-house-door-fill"></i>Inicio </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-boxes"></i>
+              Menu de productos
+            </a>
+          </li>
+          <li>
+            <a href="./html/panelVenta.html">
+              <i class="bi bi-cart-fill"></i>Carro</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex">
+      <aside class="main-index__aside-index">
+        <div class="main-index__aside-index__div-logo">
+          <h1>
+            <i class="bi bi-columns-gap"></i>
+            Perisfericos.com
+          </h1>
+        </div>
+        <div class="main-index__aside-index__div-categorias">
+          <details>
+            <summary>Productos</summary>
+            <button id="Todos" class="button-producto">Todos productos</button>
+            <button id="Teclado" class="button-producto">Teclados</button>
+            <button id="Mouse" class="button-producto">Mouse</button>
+            <button id="Computadora" class="button-producto">
+              Computadoras
+            </button>
+          </details>
+          <a href="./html/panelVenta.html">
+            <i class="bi bi-cart-fill"></i>
+            Carro <span id="span-contador-dos">(0)</span>
+          </a>
+        </div>
+      </aside>
+      <main class="main-index">
+        <section id="section-index" class="main-index__section-index"></section>
+      </main>
+    </div>
+    <footer>
+      <div>
+        <span
+          >By SantinoSteckler
+          <a href="https://github.com/SSantinoSteckler?tab=repositories"
+            >GitHub</a
+          ></span
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/panelVenta.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
+
+<!-- <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div>
+          <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div>
+          <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div>
+          <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div>
+          <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div>
+          <div class="main-index__section-index__div-producto">
+            <img src="./img/pc/imagesPc2.jpg" alt="producto" />
+            <div class="main-index__section-index__div-producto__div-date">
+              <h3>Computadora 01</h3>
+              <span>$1000</span>
+              <button>
+                <i class="bi bi-layout-text-window-reverse"></i>
+                Mas Info
+              </button>
+              <button>Agregar</button>
+            </div>
+          </div> -->
+
+<!-- <section class="main-index__section-masInfo">
+          
+          <div class="main-index__section-masInfo__div-producto">
+            <div class="main-index__section-masInfo__div-producto__div-image">
+              <img src="./img/pc/imagesPc1.jpg" alt="producto" />
+            </div>
+            <div class="main-index__section-masInfo__div-producto__div-text">
+              <h2>Computadora 01</h2>
+              <span>$1000</span>
+              <div>
+                <i class="bi bi-star-fill"></i>
+
+                <i class="bi bi-star-fill"></i>
+
+                <i class="bi bi-star-fill"></i>
+
+                <i class="bi bi-star-fill"></i>
+
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laudantium voluptatum nemo laboriosam autem eaque itaque, ut sed
+                obcaecati fugit vero doloremque dolore facilis delectus, aliquam
+                error deserunt. Ipsam, magnam itaque. Lorem ipsum dolor, sit
+                amet consectetur adipisicing elit. Unde fugit sint veniam
+                voluptas, dignissimos molestias officiis corrupti error aperiam
+              </p>
+              <img src="./img/Tc-logos.png" alt="medios-de-pago" />
+
+              <button>Agregar</button>
+            </div>
+          </div> -->
