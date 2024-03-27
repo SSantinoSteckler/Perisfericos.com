@@ -20,7 +20,7 @@
   {
     "titulo": "ASUS VivoBook 15 - AMD Ryzen 3, 8GB RAM, SSD 256GB, pantalla Full HD",
     "id": "Computadora03",
-    "img": "../img/pc/imagesPc3.jpg",
+    "img": "./img/pc/imagesPc3.jpg",
     "caracteristicas": {
       "id": "Computadora"
     },
@@ -29,7 +29,7 @@
   {
     "titulo": "Asus VivoBook 15 - AMD Ryzen 5, 12GB RAM, SSD de 256GB",
     "id": "Computadora04",
-    "img": "../img/pc/imagesPc4.jpg",
+    "img": "./img/pc/imagesPc4.jpg",
     "caracteristicas": {
       "id": "Computadora"
     },
@@ -38,7 +38,7 @@
   {
     "titulo": "Lenovo IdeaPad 3 - Intel Pentium Gold, 4GB RAM, HDD 1TB, pantalla HD",
     "id": "Computadora05",
-    "img": "../img/pc/imagesPc5.jpg",
+    "img": "./img/pc/imagesPc5.jpg",
     "caracteristicas": {
       "id": "Computadora"
     },
@@ -47,7 +47,7 @@
   {
     "titulo": "Razer Cynosa Chroma - Teclado de membrana , retroiluminación  ",
     "id": "Teclado01",
-    "img": "../img/teclados/imagesTeclado1.jpg",
+    "img": "./img/teclados/imagesTeclado1.jpg",
     "caracteristicas": {
       "id": "Teclado"
     },
@@ -56,7 +56,7 @@
   {
     "titulo": "SteelSeries Apex 7 TKL -  con teclas QX2 y retroiluminación RGB",
     "id": "Teclado02",
-    "img": "../img/teclados/imagesTeclado2.jpg",
+    "img": "./img/teclados/imagesTeclado2.jpg",
     "caracteristicas": {
       "id": "Teclado"
     },
@@ -65,7 +65,7 @@
   {
     "titulo": "HyperX Alloy Origins Core -  con switches HyperX Red y retroiluminación ",
     "id": "Teclado03",
-    "img": "../img/teclados/imagesTeclado3.jpg",
+    "img": "./img/teclados/imagesTeclado3.jpg",
     "caracteristicas": {
       "id": "Teclado"
     },
@@ -74,7 +74,7 @@
   {
     "titulo": "Corsair K70 RGB MK.2 -  con switches Cherry MX y membrana",
     "id": "Teclado04",
-    "img": "../img/teclados/imagesTeclado4.jpg",
+    "img": "./img/teclados/imagesTeclado4.jpg",
     "caracteristicas": {
       "id": "Teclado"
     },
@@ -83,7 +83,7 @@
   {
     "titulo": "Logitech G413 Carbon - Teclado mecánico para juegos ",
     "id": "Teclado05",
-    "img": "../img/teclados/imagesTeclado5.jpg",
+    "img": "./img/teclados/imagesTeclado5.jpg",
     "caracteristicas": {
       "id": "Teclado"
     },
@@ -92,7 +92,7 @@
   {
     "titulo": "Razer DeathAdder Elite - Mouse para juegos con sensor óptico de 16,000 DPI",
     "id": "Mouse01",
-    "img": "../img/mouse/imagesMouse1.jpg",
+    "img": "./img/mouse/imagesMouse1.jpg",
     "caracteristicas": {
       "id": "Mouse"
     },
@@ -101,7 +101,7 @@
   {
     "titulo": "Logitech G502 Hero - Mouse para juegos con sensor HERO 16K ",
     "id": "Mouse02",
-    "img": "../img/mouse/imagesMouse2.jpg",
+    "img": "./img/mouse/imagesMouse2.jpg",
     "caracteristicas": {
       "id": "Mouse"
     },
@@ -110,7 +110,7 @@
   {
     "titulo": "Corsair Ironclaw RGB - Mouse para juegos con sensor óptico de 18,000 DPI",
     "id": "Mouse03",
-    "img": "../img/mouse/imagesMouse3.jpg",
+    "img": "./img/mouse/imagesMouse3.jpg",
     "caracteristicas": {
       "id": "Mouse"
     },
@@ -119,7 +119,7 @@
   {
     "titulo": "SteelSeries Rival 3 - Mouse para juegos ultraligero con sensor TrueMove Core",
     "id": "Mouse04",
-    "img": "../img/mouse/imagesMouse4.jpg",
+    "img": "./img/mouse/imagesMouse4.jpg",
     "caracteristicas": {
       "id": "Mouse"
     },
@@ -128,7 +128,7 @@
   {
     "titulo": "HyperX Pulsefire Core - Mouse para juegos con sensor óptico Pixart 3327",
     "id": "Mouse05",
-    "img": "../img/mouse/imagesMouse5.jpg",
+    "img": "./img/mouse/imagesMouse5.jpg",
     "caracteristicas": {
       "id": "Mouse"
     },
