@@ -56,7 +56,7 @@ function cargarProductos(arrProductos) {
 
     newDiv.innerHTML = `
           <div class="main-index__section-index__div-producto__div-img">
-            <img src="${producto.img}" alt="producto" />
+            <img src="./${producto.img}" alt="producto" />
           </div>
             <div class="main-index__section-index__div-producto__div-date">
               <h3>${producto.titulo}</h3>
