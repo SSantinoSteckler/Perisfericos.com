@@ -154,7 +154,7 @@ aside div:nth-child(2) a {
   color: var(--color-black);
   text-decoration: none;
   font-size: 1.2rem;
-  border: solid 2px black;
+  border: solid 1px black;
   padding: 10px;
   border-radius: 12px;
   background-color: rgb(47, 163, 47);
@@ -276,8 +276,13 @@ main {
   background: none;
   border: none;
   padding: 20px;
-  background-color: red;
   border-radius: 12px;
+  color: var(--color-black);
+  transition: all 0.2s ease;
+}
+
+.main-panel-venta__section-panel__div-carro button:hover {
+  color: red;
 }
 
 .main-panel-venta__section-panel__div-carro div {
@@ -293,11 +298,11 @@ main {
 }
 
 .main-panel-venta__section-panel__div-carro div span {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .main-panel-venta__section-panel__div-carro div h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   max-width: 750px;
 }
 
@@ -310,11 +315,15 @@ main {
   gap: 20px;
   padding: 20px;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .main-panel-venta__section-panel__div-panel-compra div {
   flex-wrap: wrap;
+}
+
+.main-panel-venta__section-panel__div-panel-compra div h3 {
+  font-size: 1.3rem;
 }
 
 .main-panel-venta__section-panel__div-panel-compra div button {
@@ -352,7 +361,7 @@ main {
 
 .main-panel-venta__section-panel p {
   font-weight: 600;
-  font-size: 3.3rem;
+  font-size: 3rem;
   color: var(--color-black);
   text-align: center;
 }
@@ -502,7 +511,7 @@ main {
   border: solid 2px black;
   border-radius: 12px;
   width: 50%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: all 0.2s ease;
   font-family: 'Poppins', sans-serif;
   color: var(--color-white);
