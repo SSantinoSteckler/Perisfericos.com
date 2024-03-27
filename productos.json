@@ -2,7 +2,7 @@
   {
     "titulo": "HP Pavilion 15 - Intel Core i5, 8GB RAM, SSD 256GB, pantalla Full HD",
     "id": "Computadora01",
-    "img": "../img/pc/imagesPc1.jpg",
+    "img": "./img/pc/imagesPc1.jpg",
     "caracteristicas": {
       "id": "Computadora"
     },
@@ -11,7 +11,7 @@
   {
     "titulo": "Lenovo IdeaPad Flex 5 - AMD Ryzen 7, 16GB RAM, SSD de 512GB",
     "id": "Computadora02",
-    "img": "../img/pc/imagesPc2.jpg",
+    "img": "./img/pc/imagesPc2.jpg",
     "caracteristicas": {
       "id": "Computadora"
     },
