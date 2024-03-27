@@ -15,7 +15,7 @@ function mostrarProductos() {
 
       $divCarro.innerHTML = `
             <div>
-              <img src="${producto.img}" alt="${producto.titulo}" />
+              <img src="./${producto.img}" alt="${producto.titulo}" />
             </div>
             <div>
               <span>Nombre</span>
