@@ -93,38 +93,42 @@ function masInfo(e) {
   $sectionIndex.classList.add('main-index__section-masInfo');
 
   infoDiv.innerHTML = `
-            <div class="main-index__section-masInfo__div-producto__div-image">
-              <img src="${productoEspecifico.img}" alt="producto" />
-            </div>
-            <div class="main-index__section-masInfo__div-producto__div-text">
-              <h2>${productoEspecifico.titulo}</h2>
-              <div>
-                <i class="bi bi-star-fill"></i>
+  <div class="main-index__section-masInfo__div-card">
+  <div class="main-index__section-masInfo__div-card__div-image">
+    <img src="${productoEspecifico.img}" alt="producto" />
+  </div>
+  <div class="main-index__section-masInfo__div-card__div-content">
+    <div>
+      <h2>${productoEspecifico.titulo}</h2>
+    </div>
+    <div>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <div>
+      <span>$${productoEspecifico.precio}</span>
+    </div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quas
+        earum ut illum deleniti est explicabo laboriosam, quidem aperiam
+        assumenda corrupti unde! Libero autem, sit voluptas alias sapiente
+        ducimus quam!Lore earum ut illum deleniti est explicabo laboriosam, quidem aperiam
+        assumenda corrupti unde! Libero autem, sit voluptas alias sapiente
+        ducimus quam!Lorem
+      </p>
+    </div>
+    <div class="main-index__section-masInfo__div-card__div-content__div-button">
+      <img src="./img/Tc-logos.png" alt="medios-de-pago" />
+      <button id="${productoEspecifico.id}" class="button-agregar">Agregar</button>
+    </div>
+  </div>
+</div>
 
-                <i class="bi bi-star-fill"></i>
-
-                <i class="bi bi-star-fill"></i>
-
-                <i class="bi bi-star-fill"></i>
-
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <span>$${productoEspecifico.precio}</span>
-       
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Laudantium voluptatum nemo laboriosam autem eaque itaque, ut sed
-                obcaecati fugit vero doloremque dolore facilis delectus, aliquam
-                error deserunt. Ipsam, magnam itaque. Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit. Unde fugit sint veniam
-                voluptas, dignissimos molestias officiis corrupti error aperiam
-              </p>
-              <div class="main-index__section-masInfo__div-producto__div-text__div-boton"> 
-              <img src="./img/Tc-logos.png" alt="medios-de-pago" />
-               <button id="${productoEspecifico.id}" class="button-agregar">Agregar</button>
-              </div>
-            </div>
-        
+    
 
           `;
   $sectionIndex.appendChild(infoDiv);

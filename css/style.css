@@ -36,7 +36,7 @@ header {
 
 header div h2 {
   color: var(--color-white);
-  font-size: 1.9;
+  font-size: 1.9rem;
   display: flex;
   gap: 5px;
   margin-left: 8px;
@@ -75,7 +75,7 @@ header nav ul li a:hover {
   color: white;
 }
 .hamburger-menu button i {
-  font-size: 3rem;
+  font-size: clamp(1.9rem, 0.842rem + 3.385vw, 3rem);
 }
 
 .div-menu {
@@ -88,7 +88,7 @@ footer {
   color: white;
   font-weight: 700;
   height: 200px;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -436,89 +436,81 @@ main {
 /*Section producto individual*/
 
 .main-index__section-masInfo {
-  padding: 10px;
-  background-color: var(--color-white);
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: 3fr;
-}
-
-.main-index__section-masInfo__div-producto {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  gap: 25px;
-  align-items: center;
-  justify-content: center;
   background-color: var(--color-white);
   padding: 20px;
-}
-
-.main-index__section-masInfo__div-producto__div-image {
-  box-shadow: 0 0 10px black;
-  max-height: 550px;
-  max-width: 700px;
-  width: 100%;
-  height: 100%;
-}
-
-.main-index__section-masInfo__div-producto__div-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.main-index__section-masInfo__div-producto__div-text {
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  gap: 7px;
-  max-width: 700px;
-}
-
-.main-index__section-masInfo__div-producto__div-text h2 {
-  font-size: 2rem;
-}
-
-.main-index__section-masInfo__div-producto__div-text span {
-  font-size: 3rem;
-}
-
-.main-index__section-masInfo__div-producto__div-text p {
-  font-size: 1.1rem;
-}
-
-.main-index__section-masInfo__div-producto__div-text img {
-  width: 50%;
-  cursor: pointer;
-}
-
-.main-index__section-masInfo__div-producto__div-text div {
-  color: yellow;
-  font-size: 2.9rem;
-  text-shadow: 0 5px 5px black;
-}
-
-.main-index__section-masInfo__div-producto__div-text div {
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
-.main-index__section-masInfo__div-producto__div-text button {
-  background-color: var(--color-black);
-  border: none;
-  border: solid 2px black;
-  border-radius: 12px;
-  width: 50%;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-  font-family: 'Poppins', sans-serif;
-  color: var(--color-white);
-  height: 60px;
+.main-index__section-masInfo__div-card {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  align-items: center;
+  height: 100%;
+  gap: 30px;
+  justify-content: center;
 }
 
-.main-index__section-masInfo__div-producto__div-text button:hover {
+.main-index__section-masInfo__div-card__div-image {
+  width: 100%;
+  max-width: 700px;
+}
+
+.main-index__section-masInfo__div-card__div-image img {
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 0 10px black;
+}
+
+.main-index__section-masInfo__div-card__div-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 20px;
+}
+
+.main-index__section-masInfo__div-card__div-content div span {
+  font-size: clamp(2.4rem, 0.646rem + 3.692vw, 3rem);
+  font-weight: 700;
+}
+
+.main-index__section-masInfo__div-card__div-content div p {
+  font-size: 1.2rem;
+}
+
+.main-index__section-masInfo__div-card__div-content div i {
+  font-size: clamp(2.4rem, 0.646rem + 3.692vw, 3rem);
+  color: rgb(221, 221, 20);
+  text-shadow: 0 0 10px black;
+  margin-left: 5px;
+}
+.main-index__section-masInfo__div-card__div-content__div-button {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: start;
+}
+
+.main-index__section-masInfo__div-card__div-content__div-button img {
+  width: 50%;
+}
+
+.main-index__section-masInfo__div-card__div-content__div-button button {
+  width: 30%;
+  height: 80px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background-color: var(--color-black);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.main-index__section-masInfo__div-card__div-content__div-button button:hover {
   background-color: grey;
 }
 
@@ -553,10 +545,11 @@ main {
   .div-menu__responsive-nav ul li a {
     color: var(--color-black);
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: clamp(1.3rem, 0.915rem + 1.231vw, 1.7rem);
     margin-right: 200px;
     display: flex;
     gap: 10px;
+    color: white;
   }
   .div-menu {
     position: fixed;
@@ -564,8 +557,8 @@ main {
     left: 0;
     height: 100%;
     width: 70%;
-    background-color: #cecccc;
-
+    background-color: #1a1a1a;
+    color: white;
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.466);
   }
@@ -575,6 +568,7 @@ main {
     border: none;
     font-size: 2rem;
     padding: 20px;
+    color: white;
   }
 
   .div-menu .main-index__aside-index {
@@ -587,7 +581,7 @@ main {
   }
 
   .div-menu .main-index__aside-index__div-logo h1 {
-    font-size: 1.4rem;
+    font-size: clamp(1.1rem, 1.008rem + 0.615vw, 1.4rem);
     margin-bottom: 40px;
   }
 
@@ -608,8 +602,11 @@ main {
     background: none;
     border-radius: 12px;
     padding: 12px;
-    font-size: 1.4rem;
+    font-size: clamp(1.1rem, 0.812rem + 0.923vw, 1.4rem);
     transition: all 0.2s ease;
+    color: var(--color-white);
+    transition: all 0.2s ease;
+    text-align: start;
   }
 
   .div-menu .main-index__aside-index__div-categorias details button:hover {
@@ -619,12 +616,13 @@ main {
   .div-menu .main-index__aside-index__div-categorias a {
     text-decoration: none;
     border: solid 1px black;
-    padding: 8px;
+    padding: 20px;
     border-radius: 12px;
     background-color: #2fa32f;
     color: var(--color-black);
-    font-size: 1.4rem;
+    font-size: clamp(1.2rem, 1.008rem + 0.615vw, 1.4rem);
     transition: all 0.2s ease;
+    color: var(--color-white);
   }
 
   .div-menu .main-index__aside-index__div-categorias a:hover {
@@ -639,13 +637,16 @@ main {
   .div-menu .aside-panel-venta__div-ancles a {
     color: var(--color-black);
     text-decoration: none;
-    border: solid 2px black;
+
     border-radius: 12px;
     padding: 12px;
     transition: all 0.2s ease;
+    color: var(--color-white);
+    font-size: clamp(1.2rem, 1.008rem + 0.615vw, 1.4rem);
   }
   .div-menu .aside-panel-venta__div-ancles a:nth-child(2) {
     background-color: #2fa32f;
+    padding: 20px;
   }
 
   .main-panel-venta__section-panel__div-carro {
@@ -657,7 +658,20 @@ main {
   .div-modal__contenido-modal {
     width: 80%;
   }
-  .main-index__section-masInfo__div-producto__div-text__div-boton {
-    flex-wrap: wrap;
+  .main-index__section-masInfo__div-card {
+    flex-direction: column;
+  }
+  .main-index__section-masInfo__div-card__div-content__div-button {
+    flex-direction: column;
+  }
+
+  .main-index__section-masInfo__div-card__div-content__div-button img {
+    width: 90%;
+  }
+  .main-index__section-masInfo__div-card__div-content__div-button button {
+    width: 90%;
+  }
+  .main-index__section-masInfo {
+    padding: 8px;
   }
 }
