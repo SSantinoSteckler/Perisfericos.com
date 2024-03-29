@@ -597,13 +597,11 @@ main {
 
   .div-menu .main-index__aside-index__div-categorias details button {
     width: 100%;
-    background: none;
     margin-top: 10px;
     background: none;
     border-radius: 12px;
     padding: 12px;
     font-size: clamp(1.1rem, 0.812rem + 0.923vw, 1.4rem);
-    transition: all 0.2s ease;
     color: var(--color-white);
     transition: all 0.2s ease;
     text-align: start;
@@ -620,7 +618,7 @@ main {
     padding: 20px;
     border-radius: 12px;
     background-color: #2fa32f;
-    color: var(--color-black);
+
     font-size: clamp(1.2rem, 1.008rem + 0.615vw, 1.4rem);
     transition: all 0.2s ease;
     color: var(--color-white);
