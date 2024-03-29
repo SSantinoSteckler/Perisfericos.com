@@ -75,7 +75,7 @@ header nav ul li a:hover {
   color: white;
 }
 .hamburger-menu button i {
-  font-size: clamp(1.9rem, 0.842rem + 3.385vw, 3rem);
+  font-size: 3rem;
 }
 
 .div-menu {
@@ -560,7 +560,7 @@ main {
     background-color: #1a1a1a;
     color: white;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.466);
+    box-shadow: 400px 0 20px rgba(0, 0, 0, 0.651);
   }
 
   .div-menu__button-close {
@@ -607,6 +607,7 @@ main {
     color: var(--color-white);
     transition: all 0.2s ease;
     text-align: start;
+    border: none;
   }
 
   .div-menu .main-index__aside-index__div-categorias details button:hover {
@@ -635,9 +636,7 @@ main {
     gap: 10px;
   }
   .div-menu .aside-panel-venta__div-ancles a {
-    color: var(--color-black);
     text-decoration: none;
-
     border-radius: 12px;
     padding: 12px;
     transition: all 0.2s ease;
