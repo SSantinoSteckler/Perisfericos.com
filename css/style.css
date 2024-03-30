@@ -36,7 +36,7 @@ header {
 
 header div h2 {
   color: var(--color-white);
-  font-size: 1.9rem;
+  font-size: clamp(1.2rem, 1.115rem + 1.231vw, 1.9rem);
   display: flex;
   gap: 5px;
   margin-left: 8px;
@@ -75,7 +75,7 @@ header nav ul li a:hover {
   color: white;
 }
 .hamburger-menu button i {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .div-menu {
@@ -528,6 +528,12 @@ main {
   }
   header {
     flex-wrap: wrap-reverse;
+    padding: 30px;
+  }
+
+  footer {
+    height: 100px;
+    padding: 20px;
   }
 
   .div-menu__responsive-nav ul {
